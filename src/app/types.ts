@@ -14,13 +14,8 @@ export interface Data {
 }
 
 export interface IBoardingPass {
-  origin: string;
-  destination: string;
-}
-
-export interface Datum {
-  country: string;
-  region: string;
+  origin: Data;
+  destination: Data;
 }
 
 export enum Region {
